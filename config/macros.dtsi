@@ -2,25 +2,19 @@ macro_val3: macro_val3{
 compatible = "zmk,behavior-macro";
 label = "macro_val3";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp H>, <&kp O>, <&kp T>, <&sk LEFT_SHIFT>, <&kp L>, <&kp O>, <&kp A>, <&kp N>, <&kp NUMBER_7>, <&kp N7>, <&sk LEFT_SHIFT>, <&kp NUMBER_7>;
+bindings = <&kp NUMBER_7>, <&kp N7>, <&sk LEFT_SHIFT>, <&kp NUMBER_7>;
 };
 macro_val2: macro_val2{
 compatible = "zmk,behavior-macro";
 label = "macro_val2";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp H>, <&kp O>, <&kp T>, <&kp NUMBER_8>, <&kp NUMBER_8>, <&sk LEFT_SHIFT>, <&kp D>, <&kp O>, <&kp G>;
+bindings = <&sk LEFT_SHIFT>, <&kp D>, <&kp O>, <&kp G>;
 };
 macro_val1: macro_val1{
 compatible = "zmk,behavior-macro";
 label = "macro_val1";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp H>, <&kp O>, <&kp T>, <&sk LEFT_SHIFT>, <&kp L>, <&kp O>, <&kp A>, <&kp N>, <&kp NUMBER_8>, <&kp NUMBER_8>, <&sk LEFT_SHIFT>, <&kp N8>;
-};
-macro_paste: macro_paste{
-compatible = "zmk,behavior-macro";
-label = "macro_paste";
-#binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp V>;
+bindings = <&sk LEFT_SHIFT>, <&kp O>, <&kp A>, <&kp N>, <&kp NUMBER_8>, <&kp NUMBER_8>, <&sk LEFT_SHIFT>, <&kp N8>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
